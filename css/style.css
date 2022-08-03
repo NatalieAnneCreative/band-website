@@ -1,0 +1,34 @@
+body {
+  background-color: #00695c;
+}
+.heroimage {
+  background-image: url(/images/billyhero.jpg);
+  width: 100%;
+}
+.btn {
+  width: 50%;
+}
+.musicvids {
+  display: flex;
+  align-items: flex-end;
+}
+.video {
+  aspect-ratio: 16/9;
+  width: 100%;
+  padding-right: 1vh;
+  padding-left: 1vh;
+  padding-top: 2vh;
+}
+.undervidinfo {
+  color: white;
+  display: flex;
+  padding: 1vh;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+  .musicvids {
+    display: flex;
+    flex-direction: column;
+  }
+}
