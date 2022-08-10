@@ -1,12 +1,24 @@
 body {
   background-color: #00695c;
 }
-.heroimage {
-  background-image: url(/images/billyhero.jpg);
-  width: 100%;
+
+/* .heroimage {
+  height: 40vh;
+} */
+.image {
+  background: url("/images/billyhero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-.btn {
-  width: 50%;
+.hero-text {
+  padding-top: 20vh;
+  padding-left: 15vh;
+}
+.newsheader {
+  padding-left: 15vh;
 }
 .musicvids {
   display: flex;
@@ -19,16 +31,160 @@ body {
   padding-left: 1vh;
   padding-top: 2vh;
 }
+
 .undervidinfo {
   color: white;
   display: flex;
   padding: 1vh;
   justify-content: space-around;
 }
+.features {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15vh;
+  justify-content: space-around;
+  margin-right: 20vh;
+  padding-top: 3vh;
+}
+.featurediv {
+  color: #ffff;
+
+  font-size: 17pt;
+  text-align: center;
+  margin-right: 1vh;
+}
+.featureparagraph {
+  color: #ffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15pt;
+  text-align: center;
+}
+.featureimage {
+  height: 40vh;
+}
+.featuredtitle {
+  margin: 2vh;
+
+  font-family: Starjedi;
+  font-size: 17pt;
+  display: flex;
+  justify-content: space-around;
+}
+
+.features a:link {
+  color: #ffff;
+
+  font-size: 17pt;
+  text-decoration: none;
+}
+.features a:visited {
+  color: #ffff;
+  font-size: 17pt;
+  text-decoration: none;
+}
+.features a:hover {
+  color: #ffff;
+
+  font-size: 17pt;
+  text-decoration: underline;
+}
+
+hr.solid {
+  border-top: 3px solid white;
+  width: 150vh;
+  margin-top: -10vh;
+}
+.socialmedia h3 {
+  color: white !important;
+  display: flex;
+  justify-content: center;
+}
+.socials {
+  width: 10vh;
+  justify-content: center;
+  padding: 2vh;
+}
+.testing {
+  display: flex;
+  justify-content: center;
+}
+.page-footer {
+  bottom: 0;
+  width: 100%;
+}
+.socialfooter {
+  margin-top: -3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.footer {
+  display: flex;
+  margin-top: 0px !important;
+}
+.socialicon {
+}
 
 @media screen and (max-width: 600px) {
   .musicvids {
     display: flex;
     flex-direction: column;
+  }
+
+  .image {
+    background: url("/images/billyhero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25vh;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92%;
+    padding-top: -50vh;
+  }
+  .featurediv {
+    color: #ffff;
+    font-size: 17pt;
+    text-align: center;
+    margin-left: 4.5vh;
+    margin-bottom: 5vh;
+  }
+
+  .hero-text {
+    justify-content: center;
+    padding-left: 3vh;
+    font-size: 12px;
+  }
+  .hero-text {
+    padding-top: 3vh;
+    padding-left: 4vh;
+  }
+  .hero-text h1 {
+    font-size: 18px;
+  }
+  .waves-effect {
+    padding-top: 0vh;
+    padding-left: 3vh;
+  }
+  hr.solid {
+    margin-top: -15vh;
+    border-top: 3px solid white;
+    width: 25vh;
+  }
+  .socialmedia h3 {
+    justify-content: center;
+
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container {
   }
 }
