@@ -20,6 +20,16 @@ body {
 .newsheader {
   padding-left: 15vh;
 }
+.discography {
+  display: flex;
+  justify-content: space-evenly;
+}
+.album {
+  width: 100%;
+  padding-right: 1vh;
+  padding-left: 1vh;
+  padding-top: 2vh;
+}
 .musicvids {
   display: flex;
   align-items: flex-end;
@@ -140,7 +150,13 @@ hr.solid {
     display: flex;
     flex-direction: column;
   }
-
+  .discography {
+    display: flex;
+    flex-direction: column;
+  }
+  .album > img {
+    width: 100%;
+  }
   .image {
     background: url("/images/billyhero.jpg");
     background-size: contain;
