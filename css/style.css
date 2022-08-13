@@ -118,7 +118,17 @@ hr.solid {
   flex-direction: row;
   justify-content: flex-end;
 }
-.footer {
+
+.abouttext {
+  color: #ffff;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  font-size: 12pt;
+  text-align: justify;
+  margin-left: 25%;
+}
+.aboutinfo .footer {
   display: flex;
   margin-top: 0px !important;
 }
@@ -178,6 +188,11 @@ hr.solid {
 
     text-align: center;
     font-size: 25px;
+  }
+  .abouttext {
+    width: 87%;
+    margin-left: 3vh;
+    margin-right: 3vh;
   }
 
   .footer {
