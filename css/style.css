@@ -6,7 +6,7 @@ body {
   height: 40vh;
 } */
 .image {
-  background: url("/images/billyhero.jpg");
+  background: url("../images/billyhero.jpg");
   background-size: cover;
   background-position: center;
   height: 55vh;
@@ -20,9 +20,25 @@ body {
 .newsheader {
   padding-left: 15vh;
 }
-.discography {
+.tourinfo {
+  border-top: solid white 2px;
+  width: 50%;
+  border-bottom: solid white 2px;
   display: flex;
   justify-content: space-evenly;
+}
+.tourdate {
+  color: #ffff;
+  align-items: CENTER;
+  width: 75%;
+  margin-left: 25%;
+  font-size: 17pt;
+  text-align: center;
+  margin-right: 1vh;
+}
+.discography {
+  display: flex;
+  justify-content: space-between;
 }
 .album {
   width: 100%;
