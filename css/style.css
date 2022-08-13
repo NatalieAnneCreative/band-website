@@ -13,28 +13,52 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
 .hero-text {
-  padding-top: 20vh;
+  padding-top: 15vh;
   padding-left: 15vh;
 }
 .newsheader {
   padding-left: 15vh;
 }
-.tourinfo {
-  border-top: solid white 2px;
-  width: 50%;
-  border-bottom: solid white 2px;
-  display: flex;
-  justify-content: space-evenly;
+.toptext {
+  padding: 2vh;
 }
-.tourdate {
+.container {
+  display: grid;
+  width: 100%;
+}
+.tourinfo {
+  display: flex;
+  padding: 4vh;
+
+  justify-content: center;
+}
+.tourlocation {
   color: #ffff;
+  margin-top: -8vh;
+  margin-right: -1vh;
+  padding: 5vh;
   align-items: CENTER;
-  width: 75%;
-  margin-left: 25%;
+  border-right: solid white 1px;
+  border-bottom: solid white 2px;
   font-size: 17pt;
   text-align: center;
   margin-right: 1vh;
+  width: 30vh;
+}
+.tourdate {
+  margin-left: -1vh;
+  padding: 5vh;
+  margin-top: -8vh;
+  color: #ffff;
+  align-items: CENTER;
+  border-left: solid white 1px;
+  border-bottom: solid white 2px;
+  font-size: 17pt;
+  text-align: center;
+  margin-right: 1vh;
+  width: 30vh;
 }
 .discography {
   display: flex;
@@ -162,6 +186,28 @@ hr.solid {
 }
 
 @media screen and (max-width: 600px) {
+  .tourinfo {
+    display: flex;
+    padding-left: 8vh;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .tourlocation {
+    border-bottom: solid white 2px;
+    border-right: 0px;
+    font-size: 17pt;
+    text-align: center;
+
+    width: 30vh;
+  }
+  .tourdate {
+    border-bottom: 0px;
+    font-size: 17pt;
+    border-left: 0px;
+    text-align: center;
+    padding-left: 7vh;
+    width: 30vh;
+  }
   .musicvids {
     display: flex;
     flex-direction: column;
