@@ -24,6 +24,7 @@ body {
 .toptext {
   padding: 2vh;
 }
+
 .container {
   display: grid;
   width: 100%;
@@ -62,10 +63,13 @@ body {
 }
 .discography {
   display: flex;
+  padding-left: 15vh;
+
   justify-content: space-between;
 }
 .album {
   width: 100%;
+
   padding-right: 1vh;
   padding-left: 1vh;
   padding-top: 2vh;
@@ -81,12 +85,8 @@ body {
   padding-left: 1vh;
   padding-top: 2vh;
 }
-
-.undervidinfo {
-  color: white;
-  display: flex;
-  padding: 1vh;
-  justify-content: space-around;
+h5 {
+  padding-left: 1vh !important;
 }
 .features {
   width: 100%;
@@ -215,6 +215,8 @@ hr.solid {
   .discography {
     display: flex;
     flex-direction: column;
+    padding-left: 1vh;
+    padding-right: 1vh;
   }
   .album > img {
     width: 100%;
@@ -272,12 +274,7 @@ hr.solid {
     margin-left: 3vh;
     margin-right: 3vh;
   }
-
-  .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .container {
+  .SOCIALFOOTER {
+    margin-top: 3vh;
   }
 }
