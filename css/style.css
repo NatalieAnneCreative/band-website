@@ -24,6 +24,10 @@ body {
 .toptext {
   padding: 2vh;
 }
+.twocolumnflip {
+  display: flex;
+  flex-direction: row;
+}
 
 .container {
   display: grid;
@@ -161,9 +165,10 @@ hr.solid {
 .page-footer {
   bottom: 0;
   width: 100%;
+  padding-left: 2vh;
 }
 .socialfooter {
-  margin-top: -3vh;
+  margin-top: 0vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -180,9 +185,7 @@ hr.solid {
 }
 .aboutinfo .footer {
   display: flex;
-  margin-top: 0px !important;
-}
-.socialicon {
+  margin-top: 3px !important;
 }
 
 @media screen and (max-width: 600px) {
@@ -265,7 +268,7 @@ hr.solid {
   }
   .socialmedia h3 {
     justify-content: center;
-
+    flex-direction: column-reverse;
     text-align: center;
     font-size: 25px;
   }
@@ -274,7 +277,10 @@ hr.solid {
     margin-left: 3vh;
     margin-right: 3vh;
   }
-  .SOCIALFOOTER {
-    margin-top: 3vh;
+  .page-footer {
+    padding-left: 0vh;
+  }
+  .feettext {
+    padding-left: 2vh;
   }
 }
