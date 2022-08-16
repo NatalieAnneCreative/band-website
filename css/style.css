@@ -6,7 +6,7 @@ body {
   height: 40vh;
 } */
 .image {
-  background: url("../images/billyhero.jpg");
+  background: url("./images/billyhero.jpg");
   background-size: cover;
   background-position: center;
   height: 55vh;
@@ -189,6 +189,14 @@ hr.solid {
 }
 
 @media screen and (max-width: 600px) {
+  .image {
+    background: url("./images/billyhero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
   .tourinfo {
     display: flex;
     padding-left: 8vh;
