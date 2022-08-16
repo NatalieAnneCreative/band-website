@@ -197,7 +197,7 @@ hr.solid {
   }
   .tourinfo {
     display: flex;
-    padding-left: 11vh;
+    padding-left: 8vh;
     flex-direction: column-reverse;
     justify-content: center;
   }
@@ -214,7 +214,7 @@ hr.solid {
     font-size: 17pt;
     border-left: 0px;
     text-align: center;
-    padding-left: 9vh;
+    padding-left: 8vh;
     width: 30vh;
   }
   .musicvids {
