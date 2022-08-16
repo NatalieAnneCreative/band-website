@@ -235,8 +235,8 @@ hr.solid {
   .image {
     background: url("../images/billyhero.jpg");
     background-size: contain;
+    width: 100%;
     background-repeat: no-repeat;
-    height: 25vh;
   }
   .features {
     display: flex;
